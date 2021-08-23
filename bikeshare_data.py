@@ -193,6 +193,7 @@ def user_stats(df):
         data= input('\nDo you want to see some data.\n').lower()
     if data== 'yes':
         print(df.iloc[0:,5:])
+        print('wooww great ')
     else:
         print('\Great Thanks!')
         break
